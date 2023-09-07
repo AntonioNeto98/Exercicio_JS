@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.conteiner {
+    max-height: 960px;
+    width: 100%;
+    margin-top: 105px;
+}
+
+h1 {
+    margin-bottom: 25px;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+header, form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+#Lista-Pr {
+    font-size: 18px;
+    border: none;
+    border-bottom: 2px solid #000;
+    margin-right: 15px;
+}
+
+#Botao-Ad {
+    font-size: 18px;
+    padding: 10px;
+    font-weight: bold;
+    border: none;
+    color:#fff;
+    background-color: green;
+    cursor:pointer;
+}
+
+#Texto-List {
+    display: grid;
+    justify-content: center;
+    font-size: 25px;
+    word-wrap: break-word;
+    
+}
+
+li {
+    margin-bottom: 10px;
+    max-height: 500px;
+    width: 100%;
+    cursor: pointer;
+}
+
+.decor {
+    text-decoration: line-through;
+}
